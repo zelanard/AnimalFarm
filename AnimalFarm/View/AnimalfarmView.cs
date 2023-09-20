@@ -37,7 +37,7 @@ namespace AnimalFarm.View
         /// create a blinking effect for the stars in the welcome screen.
         /// </summary>
         /// <returns>" . ", "+" or "*"</returns>
-        /// <include file='Documentation.xml' path='/*' />
+        /// <include file='Documentation.xml' path='/documentation/remarks' />
         public static string Star()
         {
             int st = rnd.Next(0, 1000);
@@ -58,7 +58,7 @@ namespace AnimalFarm.View
         /// <summary>
         /// Create a welcome screen.
         /// </summary>
-        /// <include file='Documentation.xml' path='/*' />
+        /// <include file='Documentation.xml' path='/documentation/remarks' />
         public static void Welcome()
         {
             Console.SetCursorPosition(0, 0);
@@ -90,7 +90,7 @@ namespace AnimalFarm.View
         /// Play action until any key is pressed.
         /// </summary>
         /// <param name="action"></param>
-        /// <include file='Documentation.xml' path='/*' />
+        /// <include file='Documentation.xml' path='/documentation/remarks' />
         internal static void Play(Action action)
         {
             while (true)
