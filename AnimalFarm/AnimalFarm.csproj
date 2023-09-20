@@ -76,5 +76,8 @@
   <ItemGroup>
     <None Include="Resources\AnimalFarm.drawio.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
