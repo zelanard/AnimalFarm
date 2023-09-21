@@ -1,18 +1,12 @@
 ﻿using AnimalFarm.Utils;
 using AnimalFarm.Utils.Enums;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AnimalFarm.Model
 {
     /// <summary>
     /// <c>Animal</c> models an aimal
     /// </summary>
-    internal class Animal : IAnimal
+    public abstract class Animal : IAnimal
     {
         //Summary in IAnimal
         protected EAnimal _animalType;

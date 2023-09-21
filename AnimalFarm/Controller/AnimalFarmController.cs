@@ -1,7 +1,6 @@
 ﻿using AnimalFarm.View;
 using AnimalFarm.Model;
 using AnimalFarm.Utils.Enums;
-using System.Threading;
 
 namespace AnimalFarm.Controller
 {

@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <documentation>
   <remarks>
-    These methods are not mentionted in diagram.
-    as they are of no importance to the functionality of the system,
-    and beyond the scope of the task,
-    I have chosen to not add them to the diagram.
+    <para>
+      <strong>Attention!</strong>
+      <br/>
+      These methods are not mentionted in diagram.
+      as they are of no importance to the functionality of the system,
+      and beyond the scope of the task,
+      I have chosen to not add them to the diagram.
+    </para>
   </remarks>
 </documentation>
